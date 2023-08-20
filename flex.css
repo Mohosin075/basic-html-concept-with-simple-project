@@ -1,0 +1,29 @@
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+.green{
+    width: 1000px;
+    height: 500px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.container{
+    margin: 50px;
+    display: flex;
+}
+.container .card{
+    margin: 10px;
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.7);
+}
